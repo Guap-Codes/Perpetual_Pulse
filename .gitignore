@@ -3,7 +3,7 @@ cache/
 out/
 
 # library files
-lib/
+#lib/
 
 # Ignores development broadcast logs
 !/broadcast
