@@ -2,6 +2,10 @@
 
 An advanced decentralized exchange focused on perpetual trading, integrating effective risk management and innovative liquidity mechanisms.
 
+## Disclaimer
+
+This project is provided "as-is" without any warranties or guarantees of any kind. The developers and contributors are not responsible for any financial losses, damages, or other issues that may arise from the use of this software. Use at your own risk. Always conduct thorough testing and auditing before deploying any smart contracts to a production environment.
+
 ## Description
 
 Perpetual Pulse is a cutting-edge decentralized exchange designed to facilitate perpetual trading with a focus on risk management and liquidity. This platform empowers users with the tools they need to engage in seamless trading while effectively managing their risks.
@@ -55,7 +59,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Guap-Codes/Perpetual_Pulse.git
-
+   
    cd Perpetual_Pulse
    ```
 
@@ -65,17 +69,12 @@ To set up the project locally, follow these steps:
    curl -L https://foundry.paradigm.xyz | bash
    ```
 
-3. Install dependencies:
-   ```bash
-   forge install
-   ```
-
-4. Compile the smart contracts:
+3. Compile the smart contracts:
    ```bash
    forge build
    ```
 
-5. Deploy the contracts:
+4. Deploy the contracts:
    ```bash
    forge script script/Deploy.s.sol
    ```
